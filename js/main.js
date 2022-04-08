@@ -1,17 +1,18 @@
-const logo = document.querySelector(".header-left")
+
 const icon = document.querySelector (".fas")
-const haMenu = document.querySelector (".hamburger-menu");
 const close = document.querySelector (".close");
 
 
 icon.addEventListener("click",function(){
 
+  const haMenu = document.querySelector (".hamburger-menu");
   haMenu.classList.add("active")
 
 });
 
 close.addEventListener("click",function(){
 
+  const haMenu = document.querySelector (".hamburger-menu");
   haMenu.classList.remove("active")
 
 });
